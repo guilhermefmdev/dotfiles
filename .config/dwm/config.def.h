@@ -7,8 +7,8 @@ static const unsigned int gappx[]   = { 0 };   /* default gap between windows in
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-	static const char *fonts[]          = { "monospace:size=9", "Inconsolata:size=9", "DejaVu:size=9" };
-	static const char dmenufont[]       = "monospace:size=9";
+	static const char *fonts[]          = { "monospace:size=11.5", "Inconsolata:size=11.5", "DejaVu:size=11.5" };
+	static const char dmenufont[]       = "monospace:size=11.5";
 	static const char col_gray1[]       = "#222222";
 	static const char col_gray2[]       = "#444444";
 	static const char col_gray3[]       = "#bbbbbb";
@@ -23,7 +23,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 
 	static const char *const autostart[] = {
 		"xscreensaver", "--no-splash", NULL,
-		"nvidia-settings", "--load-config-only", NULL,
+    "slstatus", NULL,
 		NULL /* terminate */
 	};
 	/* tagging */
@@ -72,7 +72,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "alacritty", NULL };
 
 /*First arg only serves to match against key in rules*/
-static const char *scratchpadcmd[] = {"s", "st", "-t", "scratchpad", NULL}; 
+static const char *scratchpadcmd[] = {"s", "alacritty", "-t", "scratchpad", NULL}; 
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
