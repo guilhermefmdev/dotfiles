@@ -1,10 +1,14 @@
 -- options
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 vim.opt.number = true
 vim.opt.tabstop = 2
 vim.opt.shiftround = true
 vim.opt.shiftwidth = 2
 vim.opt.ruler = true
+
+--colors
+vim.cmd [[ colorscheme industry ]]
+vim.opt.guicursor = 'n-v-c-i:block-Cursor/lCursor'
 
 -- mappings 
 vim.g.mapleader = ' '

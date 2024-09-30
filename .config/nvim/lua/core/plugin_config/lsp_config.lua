@@ -1,6 +1,6 @@
 require('mason').setup()
 require('mason-lspconfig').setup({
-	ensure_installed = { 'lua_ls', 'pyright' }
+	ensure_installed = { 'lua_ls', 'pyright', 'html', 'biome' }
 })
 
 local on_attach = function(_, _)
