@@ -1,0 +1,1 @@
+- `dwm`, `dmenu` and `slstatus` source: https://suckless.org
