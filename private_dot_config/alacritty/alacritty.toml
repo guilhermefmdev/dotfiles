@@ -1,0 +1,14 @@
+[window]
+opacity = 1
+dimensions = {columns = 80, lines= 27 }
+
+[font]
+size =11.0
+
+[env]
+WINIT_X11_SCALE_FACTOR="1"
+
+#[general]
+#import = [
+#	"~/.config/alacritty/themes/themes/marine_dark.toml"
+#]
