@@ -1,0 +1,14 @@
+XF86Audio{LowerVolume,RaiseVolume,Mute}
+			~/management/vol_control.sh -{d,i,m}
+
+XF86Audio{Prev,Next}
+			~/management/brightness_control.sh -{d,i}
+
+super + R
+	redshift -P -O 3000k
+
+super + B
+	redshift -P -O 6500k
+
+super + L
+	xscreensaver-command --lock
