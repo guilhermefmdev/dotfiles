@@ -7,7 +7,7 @@ vim.opt.shiftwidth = 2
 vim.opt.ruler = true
 
 --colors
-vim.cmd [[ colorscheme sorbet ]]
+-- vim.cmd [[ colorscheme sorbet ]]
 vim.opt.guicursor = 'n-v-c-i:block-Cursor/lCursor'
 
 -- mappings 
