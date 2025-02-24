@@ -116,8 +116,6 @@ set -o vi
 
 export EDITOR="/usr/bin/nvim"
 
-. "$HOME/.cargo/env"
-
 XCURSOR_SIZE=16
 
 alias light='sudo light'
